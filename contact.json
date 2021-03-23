@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "title": "Resume",
+        "source": "public/assets/img/Resume.pdf"
+    },
+    {
+        "id": 2,
+        "title": "GitHub",
+        "source": "https://github.com/treyjewett"
+    },
+    {
+        "id": 3,
+        "title": "LinkedIn",
+        "source": "https://www.linkedin.com/in/trey-jewett-profile/"
+    },
+    {
+        "id": 4,
+        "title": "Phone",
+        "source": "(704) 577-1168"
+    },
+    {
+        "id": 5,
+        "title": "Email",
+        "source": "rfjewett3@gmail.com"
+    }
+]

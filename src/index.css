@@ -35,6 +35,10 @@ body {
   margin-left: 7%;
 }
 
+.projectHeader {
+  text-align: center;
+}
+
 .subheader {
   text-align: end;
   margin-right: 3%;

@@ -11,12 +11,15 @@ function Work() {
     <>
       <Header />
       <Navbar />
-      {projects.map(project => (
-        <Project
-          link={project.link}
-          title={project.title}
-          />
-      ))}
+      <h2 className="projectHeader">My Projects</h2>
+      <ul className="projectList">
+        {projects.map(project => (
+          <li><Project className="projectItem" id={project.title}
+            link={project.link}
+            title={project.title}
+          /></li>
+        ))}
+      </ul>
       <Footer />
     </>
   );

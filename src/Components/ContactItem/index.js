@@ -1,9 +1,16 @@
 import React from "react";
+import contact from "../../contact.json";
 
 function ContactItem(props) {
   return (
     <div className="contactItem">
-      <a href={props.source} target="_blank">{props.title}</a>
+      <ul className="contactList">
+        <li><a href={contact[0].source}>{contact[0].title}</a></li>
+        <li><a href={contact[1].source}>{contact[1].title}</a></li>
+        <li><a href={contact[2].source}>{contact[2].title}</a></li>
+        <li>{contact[3].title}: {contact[3].source}</li>
+        <li>{contact[4].title}: {contact[4].source}</li>
+      </ul>
     </div>
   );
 }

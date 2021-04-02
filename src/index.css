@@ -18,13 +18,21 @@ body {
   font-size: 50px;
 }
 
+.subheader {
+  text-align: end;
+  margin-right: 3%;
+  margin-bottom: 3%;
+  padding-top: 2%;
+  background-image: url("./assets/img/languages.jpg");
+  background-position: center;
+}
+
 .navbar {
   padding-top: 1%;
   padding-bottom: 2px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 22px;
   border: 3px solid red;
-
 }
 
 .navbar-nav {
@@ -35,17 +43,123 @@ body {
   margin-left: 7%;
 }
 
+#profile {
+  float: left;
+  width: 20%;
+  height: 15%;
+  margin-right: 2%;
+}
+
+#blurb {
+  margin-right: 2%;
+  font-size: 20px;
+  text-align: center;
+}
+
 .projectHeader {
   text-align: center;
 }
 
-.subheader {
-  text-align: end;
-  margin-right: 3%;
-  margin-bottom: 3%;
-  padding-top: 2%;
+.tile {
+  display: flex;
+  flex: auto;
+  flex-wrap: wrap;
+  position: relative;
+  object-fit: contain;
+  margin: 15px;
+  width: 500px;
+  height: 500px;
+  opacity: 70%;
+  transition: transform .3s;
+  border: 5px solid gray;
 }
 
+.tile:hover {
+  transform:scale(1.2);
+  border: 3px solid grey;
+  z-index: 1;
+}
+
+.tile-text {
+  color: black;
+  background-color: lightblue;
+  height: 10%;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 2%;
+  opacity: 100%;
+}
+
+.tile a {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+  /* opacity: 70%; */
+  object-fit: contain;
+  width: 100%;
+  height: 300px;
+  justify-content: left;
+  opacity: 100%;
+}
+
+#tripper {
+  background-image: url("./assets/img/tripper.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 70%;
+  background-position: center;
+}
+
+#react-employee {
+  background-image: url("./assets/img/react-employee.png");
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 500px;
+  align-self: center;
+  background-position: center bottom;
+}
+
+#fitness {
+  background-image: url("./assets/img/fitness.png");
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 500px;
+  background-position: center top;
+}
+
+#burger {
+  background-image: url("./assets/img/burger.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 500px;
+  background-position: center;
+}
+
+#node-employee {
+  background-image: url("./assets/img/node-employee.png");
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 500px;
+  background-position: center top;
+}
+
+#weather {
+  background-image: url("./assets/img/weather.jpg");
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 500px;
+  background-position: center top;
+}
+
+#quiz {
+  background-image: url("./assets/img/quiz.png");
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 500px;
+  background-position: center top;
+}
 
 .footer {
   text-align: center;

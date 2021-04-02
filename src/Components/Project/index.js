@@ -2,9 +2,9 @@ import React from "react";
 
 function Project(props) {
   return (
-    <div className="projectCard">
-      <a href={props.link} id={props.title}>
-        <div className="cardtext">
+    <div className="tile" id={props.id}>
+      <a href={props.link}>
+        <div className="tile-text">
           <strong>{props.title}</strong>
         </div>
       </a>

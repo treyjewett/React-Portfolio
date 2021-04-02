@@ -11,8 +11,8 @@ function About() {
       <Subheader />
       <Navbar />
       <h1>About Me</h1>
-      <img src="assets/img/Profile.jpg" alt="Myself currently" />
-      <p>Raised in Charlotte, North Carolina, I have remained close to home and I now live in Dallas, North Carolina. 
+      <img id="profile" src="assets/img/Profile.jpg" alt="Myself currently" />
+      <p id="blurb">Raised in Charlotte, North Carolina, I have remained close to home and I now live in Dallas, North Carolina. 
         I graduated from UNC Charlotte in 2017 after obtaining a bachelors degree in exercise physiology. 
         I currently work for a research and development facility where knowledge regarding technology is required. 
         I am attending UNC Charlotte's coding boot camp in an attempt to further my understanding of applications and how to apply them to my line of work. 

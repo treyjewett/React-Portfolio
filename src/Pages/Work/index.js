@@ -13,7 +13,8 @@ function Work() {
       <Navbar />
       <h2 className="projectHeader">My Projects</h2>
         {projects.map(project => (
-          <Project className="projectItem" id={project.title}
+          <Project
+            id={project.id}
             link={project.link}
             title={project.title}
           />

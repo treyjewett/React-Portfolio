@@ -1,16 +1,14 @@
 import React from "react";
 import Header from "../../Components/Header";
 import Subheader from "../../Components/Subheader";
-import Navbar from "../../Components/Navbar";
 import Footer from "../../Components/Footer";
 
 function About() {
   return (
-    <div className="aboutWrap">
+    <div className="aboutPage">
       <Header />
       <Subheader />
-      <Navbar />
-      <h1>About Me</h1>
+      <h1 className="about">About Me</h1>
       <img id="profile" src="assets/img/Profile.jpg" alt="Myself currently" />
       <p id="blurb">Raised in Charlotte, North Carolina, I have remained close to home and I now live in Dallas, North Carolina. 
         I graduated from UNC Charlotte in 2017 after obtaining a bachelors degree in exercise physiology. 
@@ -23,7 +21,7 @@ function About() {
         It quickly became apparent that I needed some education in the "behind-the-scenes" systems that help technology perform. 
         After nearly 18 months of teaching myself Python, I realized that I needed a strong foundation in order to build my education efficiently. 
         After the bootcamp, I want to utilize my education to advance machine learning and other AI applications.</p>
-      <Footer />
+        <Footer />
     </div>
   )
 }

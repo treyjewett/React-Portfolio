@@ -8,21 +8,21 @@ function Navbar() {
         <ul>
           <li>
             <Link to="/">
-              About
+              <strong>About</strong>
           </Link>
           </li>
           <li>
             <Link
               to="/projects"
             >
-              Projects
+              <strong>Projects</strong>
             </Link>
           </li>
           <li>
             <Link
               to="/contact"
             >
-              Contact Me
+              <strong>Contact Me</strong>
             </Link>
           </li>
         </ul>

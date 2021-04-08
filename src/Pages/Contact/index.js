@@ -10,6 +10,7 @@ function Contact() {
     <>
       <Header />
       <Subheader />
+        <h2 className="projectHeader">Contact Information</h2>
         <ContactItem />
       <Footer />
     </>

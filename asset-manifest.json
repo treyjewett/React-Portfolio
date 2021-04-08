@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/rect-portfolio/static/css/main.f65e9ce9.chunk.css",
+    "main.js": "/rect-portfolio/static/js/main.8ef208d3.chunk.js",
+    "main.js.map": "/rect-portfolio/static/js/main.8ef208d3.chunk.js.map",
+    "runtime-main.js": "/rect-portfolio/static/js/runtime-main.41750801.js",
+    "runtime-main.js.map": "/rect-portfolio/static/js/runtime-main.41750801.js.map",
+    "static/js/2.a2fbd5a2.chunk.js": "/rect-portfolio/static/js/2.a2fbd5a2.chunk.js",
+    "static/js/2.a2fbd5a2.chunk.js.map": "/rect-portfolio/static/js/2.a2fbd5a2.chunk.js.map",
+    "index.html": "/rect-portfolio/index.html",
+    "static/css/main.f65e9ce9.chunk.css.map": "/rect-portfolio/static/css/main.f65e9ce9.chunk.css.map",
+    "static/js/2.a2fbd5a2.chunk.js.LICENSE.txt": "/rect-portfolio/static/js/2.a2fbd5a2.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/rect-portfolio/static/media/weather.5ae4b313.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.41750801.js",
+    "static/js/2.a2fbd5a2.chunk.js",
+    "static/css/main.f65e9ce9.chunk.css",
+    "static/js/main.8ef208d3.chunk.js"
+  ]
+}

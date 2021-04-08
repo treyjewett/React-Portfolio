@@ -7,7 +7,7 @@ import './index.css';
 
 function App() {
   return (
-    <Router basename="react-portfolio">
+    <Router basename="/React-Portfolio">
       <div>
           <Route exact path="/" component={About} />
           <Route exact path="/projects" component={Work} />

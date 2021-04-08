@@ -10,7 +10,7 @@ function About() {
       <Subheader />
       <h1 className="about">About Me</h1>
       <div className="aboutContainer">
-        <img id="profile" src="assets/img/Profile.jpg" alt="Myself currently" />
+        <img id="profile" src={process.env.PUBLIC_URL + "/assets/img/profile.jpg"} alt="Myself currently" />
         <p id="blurb">Raised in Charlotte, North Carolina, I have remained close to home and I now live in Dallas, North Carolina.
         I graduated from UNC Charlotte in 2017 after obtaining a bachelors degree in exercise physiology.
         I currently work for a research and development facility where knowledge regarding technology is required.

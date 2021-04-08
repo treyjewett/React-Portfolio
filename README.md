@@ -1,4 +1,55 @@
-# Getting Started with Create React App
+# Portfolio
+
+![badge](https://img.shields.io/static/v1?label=license&message=MIT&color=blue)
+
+## Description
+
+As an aspiring developer, it is crucial that my skills are put on display for potential employers to see my work. One of the best ways to do that is to create a website that show-cases projects that took the most skill, or something that stands out among others. Herein lies the project: Create a website that houses skills learned through the UNC Charlotte Bootcamp so that employers will have an idea of what I am capable of.
+
+## Table of Contents
+- [Code Utilized](#code-utilized:)
+- [What to Expect](#what-to-expect:)
+- [Rendered Website](#rendered-website:)
+- [License](#license:)
+- [Lessons Learned](#lessons-learned:)
+
+## Code Utilized
+
+This portfolio was made ustilizing React, JavaScript, and CSS.
+
+## What To Expect
+
+When the portfolio is loaded:
+- A header presents my name as well as navigation for the page.
+- The navigation buttons will redirect to the respective page when clicked.
+- The about page is a small bio about myself and why I am persuing development.
+- The project page displays interactive tiles that present notable applications and web pages that I have created.
+- The application that stands out the most is my most recent project and is presented first and larger than the others.
+- All of the application tiles are links to the published work.
+- When the screen is re-sized, the content on the page reacts appropriately so it is readable on various devices and screen sizes.
+- All contact information (with the exception of the phone number) has links that navigate to the contact type for easier communication.
+
+## Rendered Website
+
+<img src="public\assets\img\portfolio-screenshot.png">
+
+<a href="https://treyjewett.github.io/React-Portfolio/" target="_blank">Click here to view the website!</a>
+
+## License
+
+This project is using MIT.
+
+## Lessons Learned
+
+
+
+----------------------------------------------------------------------
+
+----------------------------------------------------------------------
+
+# More about React
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

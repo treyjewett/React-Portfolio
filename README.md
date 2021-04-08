@@ -41,7 +41,7 @@ This project is using MIT.
 
 ## Lessons Learned
 
-
+Recreating an application is not as daunting as I initially thought. React makes adding and editing various files much less complicated than scrolling through hundreds of lines of code to find what you are looking for. React is seriously powerful, and I am grateful to have been introduced to it.
 
 ----------------------------------------------------------------------
 

@@ -11,7 +11,8 @@ function Work() {
     <>
       <Header />
       <Subheader />
-      <h2 className="projectHeader">My Projects</h2>
+        <h2 className="projectHeader">My Projects</h2>
+        <div className="tileContainer">
         {projects.map(project => (
           <Project
             id={project.id}
@@ -19,6 +20,7 @@ function Work() {
             title={project.title}
           />
         ))}
+        </div>
       <Footer />
     </>
   );

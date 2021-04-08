@@ -101,15 +101,19 @@ body {
 
 .projectHeader {
   text-align: center;
+  font-size: 60px;
+}
+
+.tileContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .tile {
-  display: flex;
-  flex: auto;
-  flex-wrap: wrap;
   position: relative;
   object-fit: contain;
-  margin: 15px;
+  margin: 3%;
   width: 500px;
   height: 500px;
   opacity: 70%;
@@ -126,11 +130,14 @@ body {
 .tile-text {
   color: black;
   background-color: lightblue;
-  height: 10%;
+  height: 7%;
   position: absolute;
   bottom: 0;
-  margin-bottom: 2%;
+  margin-bottom: 5%;
+  margin-left: 1%;
+  padding-top: 1%;
   opacity: 100%;
+  font-size: 25px;
 }
 
 .tile a {
@@ -139,7 +146,7 @@ body {
   flex: auto;
   object-fit: contain;
   width: 100%;
-  height: 300px;
+  height: 100%;
   justify-content: left;
   opacity: 100%;
 }
@@ -149,7 +156,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
-  width: 70%;
+  width: 75%;
   background-position: center;
 }
 
@@ -157,7 +164,7 @@ body {
   background-image: url("./assets/img/react-employee.png");
   background-repeat: no-repeat;
   height: 500px;
-  width: 500px;
+  width: 25%;
   align-self: center;
   background-position: center bottom;
 }
@@ -166,7 +173,7 @@ body {
   background-image: url("./assets/img/fitness.png");
   background-repeat: no-repeat;
   height: 500px;
-  width: 500px;
+  width: 25%;
   background-position: center top;
 }
 
@@ -175,7 +182,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
-  width: 500px;
+  width: 25%;
   background-position: center;
 }
 
@@ -183,7 +190,7 @@ body {
   background-image: url("./assets/img/node-employee.png");
   background-repeat: no-repeat;
   height: 500px;
-  width: 500px;
+  width: 25%;
   background-position: center top;
 }
 
@@ -191,7 +198,7 @@ body {
   background-image: url("./assets/img/weather.jpg");
   background-repeat: no-repeat;
   height: 500px;
-  width: 500px;
+  width: 25%;
   background-position: center top;
 }
 
@@ -199,8 +206,56 @@ body {
   background-image: url("./assets/img/quiz.png");
   background-repeat: no-repeat;
   height: 500px;
-  width: 500px;
+  width: 25%;
   background-position: center top;
+}
+
+#resume {
+  background-image: url("./assets/img/resumephoto.png");
+  background-repeat: no-repeat;
+  background-size: fill;
+  height: 500px;
+  width: 500px;
+  background-color: grey;
+  background-position: center;
+}
+
+#github {
+  background-image: url("./assets/img/github.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 500px;
+  width: 500px;
+  background-color: grey;
+  background-position: center;
+}
+
+#linkedin {
+  background-image: url("./assets/img/linkedin.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 500px;
+  width: 500px;
+  background-color: grey;
+}
+
+#phone {
+  background-image: url("./assets/img/phone.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 500px;
+  width: 500px;
+  background-color: grey;
+}
+
+#email {
+  background-image: url("./assets/img/gmail.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 500px;
+  width: 500px;
+  background-color: grey;
+  background-position: center;
 }
 
 .footer {
@@ -212,31 +267,4 @@ body {
   padding-top: 0.5px;
   background-color: darkgrey;
   border: 5px solid darkgrey;
-}
-
-.contactList {
-  display: flex;
-  flex-wrap: nowrap;
-  text-align: center;
-  width: 80%;
-  margin-left: 10%;
-  justify-content: space-between;
-  margin-top: 5%;
-  margin-bottom: 30%;
-}
-
-.contactList li {
-  display: block;
-  font-size: 30px;
-  background-color: lightgreen;
-  padding: 1%;
-  border-radius: 20px;
-}
-
-.contactList li a {
-  color: black;
-}
-
-.contactList a:hover {
-  color: grey;
 }

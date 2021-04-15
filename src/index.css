@@ -93,7 +93,7 @@ body {
 }
 
 #blurb {
-  margin-top: 2%;
+  margin-top: 0%;
   margin-right: 2%;
   font-size: 27px;
   text-align: center;
@@ -148,13 +148,13 @@ body {
   justify-content: left;
 }
 
-#tripper {
-  background-image: url("./assets/img/tripper.png");
+#pour {
+  background-image: url("./assets/img/pour-it-up.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
   width: 75%;
-  background-position: center;
+  background-position: top;
 }
 
 #react-employee {

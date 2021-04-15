@@ -1,8 +1,8 @@
 [
     {
-        "id": "tripper",
-        "title": "Tripper MySQL Database",
-        "link": "https://tripper-db.herokuapp.com/"
+        "id": "pour",
+        "title": "Pour-It-Up MERN Stack",
+        "link": "https://pour-it-up.herokuapp.com/"
     },
     {
         "id": "react-employee",

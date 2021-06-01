@@ -33,7 +33,7 @@ function ContactItem() {
       <div className="tile" id="email">
         <a href="mailto:rfjewett3@gmail.com">
           <div className="tile-text">
-            <strong>{contact[4].title}</strong>
+            <strong>{contact[4].title}: rfjewett3@gmail.com</strong>
           </div>
         </a>
       </div>

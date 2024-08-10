@@ -11,7 +11,7 @@ function About() {
       <h1 className="about">About Me</h1>
       <div className="aboutContainer">
         <img id="profile" src={process.env.PUBLIC_URL + "/assets/img/profile.jpg"} alt="Myself currently" />
-        <p id="blurb">Raised in Charlotte, North Carolina, I have remained close to home and I now live in Kernersville, North Carolina. 
+        <p id="blurb">Raised in Charlotte, North Carolina, I have remained close to home and I now live in Mooresville, North Carolina. 
         I graduated from UNC Charlotte in 2017 after obtaining a bachelors degree in exercise physiology. I most recently worked for a 
         research and development facility where knowledge regarding technology was required. Because of the need for technology knowledge, 
         I enrolled in UNC Charlotte's coding boot camp where I was able to further my understanding of applications and how to apply them to 

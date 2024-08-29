@@ -1,0 +1,37 @@
+[
+    {
+        "id": "pour",
+        "title": "Pour-It-Up MERN Stack",
+        "link": "https://pour-it-up.herokuapp.com/"
+    },
+    {
+        "id": "react-employee",
+        "title": "React Employee Directory",
+        "link": "https://treyjewett.github.io/React-Employee-Directory/"
+    },
+    {
+        "id": "fitness",
+        "title": "MongoDB Fitness Tracker",
+        "link": "https://russells-fitness-tracker.herokuapp.com/?id=6043c8b6a08f29001529b82f"
+    },
+    {
+        "id": "burger",
+        "title": "MySQL Burger Shack",
+        "link": "https://russells-burger-shack.herokuapp.com/"
+    },
+    {
+        "id": "node-employee",
+        "title": "Node Employee Manager",
+        "link": "https://github.com/treyjewett/Employee-Manager/"
+    },
+    {
+        "id": "weather",
+        "title": "API Weather Dashboard",
+        "link": "https://treyjewett.github.io/Weather-dashboard/"
+    },
+    {
+        "id": "quiz",
+        "title": "Code Quiz",
+        "link": "https://treyjewett.github.io/Code-quiz/"
+    }
+]

@@ -1,0 +1,267 @@
+body {
+  margin: 0;
+  background-color: lightblue;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.header {
+  padding-left: 5%;
+  padding-top: 0.5%;
+  padding-bottom: 3%;
+  background-color: darkgrey;
+  height: 80px;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+#lastName {
+  color: lightblue;
+}
+
+.nav {
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  font-size: 22px;
+  margin-right: 3%;
+  width: 40%;
+  padding-top: 3.5%;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 3%;
+  padding-top: 2%;
+}
+
+.nav ul li {
+  display: inline-block;
+}
+
+.nav ul li a {
+  color: black;
+}
+
+.nav a:hover {
+  color: lightblue;
+}
+
+.subheader {
+  display: block;
+  background-image: url("./assets/img/sub-header.jpeg");
+  padding-top: 2%;
+  background-position: center;
+  position: relative;
+  text-align: end;
+  padding-bottom: 0.5px;
+}
+
+.subtext {
+  text-align: end;
+  background-color: lightblue;
+  width: 15%;
+  margin-left: auto;
+  margin-right: 4%;
+}
+
+.subtext h2 {
+  text-align: center;
+  background-color: lightblue;
+}
+
+.aboutContainer {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.about {
+  padding-left: 5%;
+  text-align: center;
+  font-size: 50px;
+}
+
+#profile {
+  width: 20%;
+  height: 15%;
+  margin-bottom: 5%;
+  margin-left: 2%;
+  margin-right: 1.5%;
+}
+
+#blurb {
+  margin-top: 0%;
+  margin-right: 2%;
+  font-size: 27px;
+  text-align: center;
+}
+
+.projectHeader {
+  text-align: center;
+  font-size: 60px;
+}
+
+.tileContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.tile {
+  position: relative;
+  object-fit: contain;
+  margin: 3%;
+  width: 500px;
+  height: 500px;
+  transition: transform .3s;
+  border: 5px solid gray;
+}
+
+.tile:hover {
+  transform:scale(1.2);
+  border: 3px solid grey;
+  z-index: 1;
+}
+
+.tile-text {
+  color: black;
+  background-color: lightblue;
+  height: 7%;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 5%;
+  margin-left: 1%;
+  padding-top: 1%;
+  font-size: 25px;
+}
+
+.tile a {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  justify-content: left;
+}
+
+#pour {
+  background-image: url("./assets/img/pour-it-up.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 75%;
+  background-position: top;
+}
+
+#react-employee {
+  background-image: url("./assets/img/react-employee.png");
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 25%;
+  align-self: center;
+  background-position: center bottom;
+}
+
+#fitness {
+  background-image: url("./assets/img/fitness.png");
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 25%;
+  background-position: center top;
+}
+
+#burger {
+  background-image: url("./assets/img/burger.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 25%;
+  background-position: center;
+}
+
+#node-employee {
+  background-image: url("./assets/img/node-employee.png");
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 25%;
+  background-position: center top;
+}
+
+#weather {
+  background-image: url("./assets/img/weather.jpg");
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 25%;
+  background-position: center top;
+}
+
+#quiz {
+  background-image: url("./assets/img/quiz.png");
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 25%;
+  background-position: center top;
+}
+
+#resume {
+  background-image: url("./assets/img/resumephoto.png");
+  background-repeat: no-repeat;
+  background-size: fill;
+  height: 500px;
+  width: 500px;
+  background-color: grey;
+  background-position: center;
+}
+
+#github {
+  background-image: url("./assets/img/github.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 500px;
+  width: 500px;
+  background-color: grey;
+  background-position: center;
+}
+
+#linkedin {
+  background-image: url("./assets/img/linkedin.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 500px;
+  width: 500px;
+  background-color: grey;
+}
+
+#phone {
+  background-image: url("./assets/img/phone.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 500px;
+  width: 500px;
+  background-color: grey;
+}
+
+#email {
+  background-image: url("./assets/img/gmail.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 500px;
+  width: 500px;
+  background-color: grey;
+  background-position: center;
+}
+
+.footer {
+  position: relative;
+  text-align: center;
+  margin-bottom: 2%;
+  bottom: 0;
+  padding-bottom: 0.5px;
+  padding-top: 0.5px;
+  background-color: darkgrey;
+  border: 5px solid darkgrey;
+}
